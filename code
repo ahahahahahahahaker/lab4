@@ -8,7 +8,7 @@ diff = totalpt - points
 place -= 1
 diff -= 5 # очки за ингалятор
 inf = []
-with open('inf1.csv/inf.csv', encoding='utf-8') as file:
+with open('inf.csv', encoding='utf-8') as file:
     reader = csv.reader(file, delimiter=';')
     i = 0
     next(reader)
